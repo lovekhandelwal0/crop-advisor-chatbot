@@ -4,7 +4,7 @@ import openai
 from openai import OpenAI
 import gdown
 
-client = OpenAI(api_key="YOUR_OPENAI_API_KEY")
+client = OpenAI(api_key="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")
 
 sheet_id  = "1JDb4J_pXzhfpryXizHe8v22PiRg6WFSA"
 xlsx_url  = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=xlsx"
