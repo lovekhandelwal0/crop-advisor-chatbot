@@ -2,3 +2,4 @@ openai
 gradio
 pandas
 gdown
+openpyxl
