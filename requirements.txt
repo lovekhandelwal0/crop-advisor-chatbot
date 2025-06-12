@@ -3,4 +3,3 @@ gradio
 pandas
 gdown
 openpyxl
-pip install python-dotenv
