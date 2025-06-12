@@ -4,11 +4,7 @@ import openai
 from openai import OpenAI
 import gdown
 
-from dotenv import load_dotenv
 import os
-
-load_dotenv()  # 🔥 This loads variables from .env into the environment
-
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 sheet_id  = "1JDb4J_pXzhfpryXizHe8v22PiRg6WFSA"
